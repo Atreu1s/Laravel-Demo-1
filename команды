@@ -1,0 +1,10 @@
+php artisan make:model Application
+php artisan make:seeder UserSeeder (Возможно понадобиться добавить "use Illuminate\Support\Facades\Hash")
+php artisan make:seeder AppsSeeder
+php artisan migrate
+php artisan db:seed
+php artisan make:controller ClientController
+php artisan make: controller AdminController
+php artisan make:controller ApplicationController
+php artisan make:request ApplicationRequest
+php artisan make:middleware AdminMiddleware
